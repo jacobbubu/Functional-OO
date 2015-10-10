@@ -1,0 +1,27 @@
+{
+  "name": "functional-oo",
+  "version": "0.0.1",
+  "description": "An ES6/7 implemntations for @lizhuoli1126's practices of functional JS",
+  "private": "true",
+  "scripts": {
+    "start": "gulp dev",
+    "build": "gulp buildAll",
+    "test": "babel-tape-runner test/**/*-test.js"
+  },
+  "keywords": [
+    "functional",
+    "ES6",
+    "babel"
+  ],
+  "author": "Rong Shen <rong.shen@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^5.8.25",
+    "babel-tape-runner": "^1.2.0",
+    "blue-tape": "^0.1.10",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.2.1",
+    "gutil": "^1.6.4"
+  }
+}

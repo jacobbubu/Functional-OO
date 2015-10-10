@@ -1,0 +1,6 @@
+# node
+node_modules/
+test/
+
+# Use Transpiled files for publish
+src/
